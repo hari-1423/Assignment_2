@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    color: #fff;
+  }
+  
+  #bgvideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: contain;
+    object-fit: contain;
+  }
+  
+  #dropdown {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  
+  .dropkey {
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .dropkey:focus {
+    outline: none;
+  }
+  
+  .topcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #000000d0;
+    color: white;
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    font-size: 1rem;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  .search button {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .weather {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .city {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .temp, .temp-feels-like {
+    font-size: 3rem;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+  }
+  
+  .dt {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+  
+  .humidity, .wind {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  
+  .card2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card2 .card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+  }
+  
+  h5 {
+    margin-bottom: 0.75rem;
+    font-size: 1.25rem;
+  }
+  
+  .bottomcard {
+    height: 30vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 1em;
+    background: rgba(50, 50, 50, 0.404);
+    padding: 1%;
+    text-align: center;
+    width: 25%;
+    border-radius: 10px;
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .box img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .ddt {
+    margin-top: 0.5rem;
+    font-size: 12px
+}
+  
