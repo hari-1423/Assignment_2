@@ -8,7 +8,7 @@
 
     This project is designed to retrieve weather data from the OpenWeatherMap API at configurable intervals, convert temperature values based on user preference, and provide daily weather summaries including additional parameters like humidity and wind speed. The system is built to be robust, easy to set up, and extendable.
 
-
+![OUTPUT](.backend/assets/img.png)
     
 ## Features
 
